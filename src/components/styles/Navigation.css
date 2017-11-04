@@ -1,0 +1,45 @@
+.navigationContainer {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: lightblue;
+  height: calc(10vh);
+}
+
+.navigationContent {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  height: calc(10vh);
+  align-items: center;
+}
+
+.navigationLogins {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  float: right;
+  text-decoration: none;
+  min-width: 120px;
+
+}
+
+.navigationLogo {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.linkStyles {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+
+.navigationPlaceholder {
+  top: 0px;
+  height: calc(10vh);
+}
